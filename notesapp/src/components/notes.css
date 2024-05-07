@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Poiret';
+    src: url('../fonts/PoiretOne-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Holden';
+    src: url('../fonts/Holden-Medium-trial.ttf') format('truetype');
+  }
+
+.beautiful-heading {
+    color: #333; /* Set the text color */
+    font-family: 'Holden', sans-serif; /* Set the font family */
+    font-size: 48px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    text-transform: uppercase; /* Set the text to uppercase */
+    text-align: center; /* Set the text alignment */
+    letter-spacing: 2px; /* Set the letter spacing */
+    padding: 20px 0; /* Set the padding */
+     /* Add more CSS properties as needed */
+  }
+
+  @media screen and (max-width: 720px) {
+  
+ 
+  .beautiful-heading {
+    color: #333; /* Set the text color */
+    font-family: 'Holden', sans-serif; /* Set the font family */
+    font-size: 30px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    text-transform: uppercase; /* Set the text to uppercase */
+    text-align: center; /* Set the text alignment */
+    letter-spacing: 2px; /* Set the letter spacing */
+    padding: 20px 0; /* Set the padding */
+     /* Add more CSS properties as needed */
+  }
+}

@@ -1,0 +1,32 @@
+
+.vertical-navbar {
+   align-items: center;  
+   margin: 0%;
+  }
+  
+  /* Add more styles as needed */
+  
+ul{
+    position: absolute;
+    top:25%;
+    
+}
+
+  li{
+    
+    /* height: 70px; */
+    list-style: none;
+    /* width: 70px; */
+  }
+
+
+  @media screen and (max-width: 720px) {
+  
+ul{
+  position: absolute;
+  top:25%;
+  left: -7%;
+}
+
+  
+  }
